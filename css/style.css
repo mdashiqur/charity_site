@@ -1,0 +1,471 @@
+/*** ===========  header start  =========== ***/
+* {
+  font-family: 'Rubik', sans-serif; }
+
+.header-section {
+  background-size: 100% 100%;
+  background-image: url("../images/bg.jpg");
+  position: relative; }
+  .header-section .gradent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: -webkit-fill-available;
+    background-image: linear-gradient(to left, #0000004a 67%, #ff00005c 33%); }
+  .header-section .navbar .navbar-brand {
+    padding: 0 !important;
+    margin-left: 40px !important; }
+    .header-section .navbar .navbar-brand img {
+      width: 68%;
+      z-index: 9999;
+      position: relative; }
+  .header-section .navbar .navbar-nav {
+    margin-right: 75px !important; }
+    .header-section .navbar .navbar-nav .nav-item {
+      padding: 20px 16px !important; }
+      .header-section .navbar .navbar-nav .nav-item .nav-link {
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+        transition: all 0.3s linear;
+        position: relative;
+        padding: 0 !important;
+        z-index: 9999; }
+        .header-section .navbar .navbar-nav .nav-item .nav-link:hover {
+          color: #ccc; }
+        .header-section .navbar .navbar-nav .nav-item .nav-link::before {
+          content: "";
+          width: 0;
+          height: 2px;
+          background: white;
+          position: absolute;
+          left: 0;
+          top: 100%;
+          transition: all 0.3s linear; }
+        .header-section .navbar .navbar-nav .nav-item .nav-link:hover::before {
+          width: 100%; }
+  .header-section .navbar .donet p {
+    background: white;
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-top: 20px;
+    z-index: 9999;
+    position: relative; }
+  .header-section .header-content {
+    max-width: 520px;
+    margin: 125px 0 0 500px; }
+    .header-section .header-content h1 {
+      color: white;
+      position: relative;
+      z-index: 9999;
+      text-transform: uppercase;
+      font-size: 45px; }
+      .header-section .header-content h1 span {
+        color: #f6514d;
+        font-weight: 700; }
+    .header-section .header-content p {
+      color: white;
+      position: relative;
+      z-index: 9999;
+      margin: 22px 0; }
+    .header-section .header-content .btn {
+      background-color: #f6514d;
+      color: white;
+      z-index: 9999;
+      position: relative;
+      font-weight: 500;
+      border-radius: 0;
+      padding: 11px 30px; }
+      .header-section .header-content .btn:focus {
+        box-shadow: inherit; }
+  .header-section .col-lg-5 {
+    padding: 0 !important;
+    margin-top: 100px; }
+  .header-section .vlogina {
+    background-color: #00000096;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    padding: 15px 0; }
+    .header-section .vlogina .login {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0 20px;
+      font-size: 14px;
+      transition: all 0.3s linear; }
+      .header-section .vlogina .login .icofont-user {
+        font-size: 11px;
+        margin-left: 5px; }
+      .header-section .vlogina .login .fa-unlock {
+        font-size: 11px;
+        margin-right: 5px; }
+      .header-section .vlogina .login:hover {
+        color: red; }
+    .header-section .vlogina .volanimeta {
+      display: inline-block;
+      margin: 0 80px; }
+      .header-section .vlogina .volanimeta h3 {
+        font-size: 19px;
+        font-weight: 400;
+        margin: 0; }
+  .header-section .vloginb {
+    background-color: #ad3936ed;
+    position: relative;
+    z-index: 9999;
+    color: white;
+    padding: 15px 0; }
+    .header-section .vloginb .login {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0 20px;
+      font-size: 14px;
+      transition: all 0.3s linear; }
+      .header-section .vloginb .login .icofont-user {
+        font-size: 11px;
+        margin-left: 5px; }
+      .header-section .vloginb .login .fa-unlock {
+        font-size: 11px;
+        margin-right: 5px; }
+      .header-section .vloginb .login:hover {
+        color: black; }
+    .header-section .vloginb .volanimetb {
+      display: inline-block;
+      margin: 0 80px; }
+      .header-section .vloginb .volanimetb h3 {
+        font-size: 19px;
+        font-weight: 400;
+        margin: 0; }
+
+/*** ===========  header end  =========== ***/
+/*** ===========  our causes start  =========== ***/
+.our-causes {
+  padding: 110px 0; }
+  .our-causes .our-causes-content {
+    max-width: 70%;
+    margin: auto;
+    text-align: center; }
+    .our-causes .our-causes-content h2 {
+      font-size: 36px;
+      font-weight: 600;
+      color: #f6514d;
+      position: relative; }
+      .our-causes .our-causes-content h2::after {
+        content: "";
+        width: 70px;
+        height: 5px;
+        background: #f6514d;
+        position: absolute;
+        left: 196px;
+        bottom: 100%; }
+      .our-causes .our-causes-content h2::before {
+        content: "";
+        width: 70px;
+        height: 5px;
+        background: #f6514d;
+        position: absolute;
+        right: 196px;
+        top: 100%; }
+    .our-causes .our-causes-content p {
+      font-size: 15px;
+      padding-top: 15px; }
+  .our-causes .threechildren {
+    padding-top: 60px; }
+    .our-causes .threechildren .children {
+      box-shadow: 1px -1px 11px 1px #00000038;
+      padding-bottom: 40px;
+      transition: all 0.4s ease; }
+      .our-causes .threechildren .children .img {
+        overflow: hidden; }
+        .our-causes .threechildren .children .img img {
+          width: 100%;
+          transform: scale(1);
+          transition: all 0.5s ease; }
+      .our-causes .threechildren .children h3 {
+        color: #f6514d;
+        font-size: 18px;
+        margin: 20px 20px 6px;
+        transition: all 0.4s ease; }
+      .our-causes .threechildren .children p {
+        font-size: 14px;
+        margin: 0 20px;
+        transition: all 0.4s ease; }
+      .our-causes .threechildren .children .funded {
+        margin-top: 20px; }
+        .our-causes .threechildren .children .funded p {
+          text-align: center;
+          font-size: 15px;
+          color: black;
+          font-weight: 600; }
+        .our-causes .threechildren .children .funded .found-design {
+          display: block;
+          height: 10px;
+          width: 100%;
+          margin-top: 13px;
+          margin-bottom: 17px;
+          background-image: linear-gradient(to left, #000000b0 60%, #ff0000ad 40%);
+          position: relative;
+          transition: all 0.4s ease; }
+          .our-causes .threechildren .children .funded .found-design::after {
+            content: "";
+            border-right: 40px solid transparent;
+            border-top: 20px solid white;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transition: all 0.4s ease; }
+          .our-causes .threechildren .children .funded .found-design::before {
+            content: "";
+            border-left: 40px solid transparent;
+            border-bottom: 20px solid white;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transition: all 0.4s ease; }
+          .our-causes .threechildren .children .funded .found-design .found-designa {
+            display: inline-block;
+            position: absolute;
+            left: 115px;
+            top: 0;
+            border-left: 25px solid transparent;
+            border-bottom: 10px solid #4f4f4f;
+            transition: all 0.4s ease; }
+        .our-causes .threechildren .children .funded .raised-all {
+          display: flex;
+          justify-content: space-between; }
+          .our-causes .threechildren .children .funded .raised-all .raised p {
+            font-size: 13px;
+            font-weight: 500;
+            color: #ff0000ed;
+            transition: all 0.4s ease; }
+            .our-causes .threechildren .children .funded .raised-all .raised p span {
+              font-weight: 600;
+              color: red;
+              transition: all 0.4s ease; }
+          .our-causes .threechildren .children .funded .raised-all .goal p {
+            font-size: 13px;
+            font-weight: 500;
+            color: #000000ed; }
+            .our-causes .threechildren .children .funded .raised-all .goal p span {
+              font-weight: 600;
+              color: black; }
+    .our-causes .threechildren .btn {
+      background-color: #ff0701c7;
+      color: white;
+      border-radius: 0;
+      font-size: 13px;
+      padding: 7px 22px;
+      margin: auto;
+      display: block;
+      margin-top: 48px;
+      transition: all 0.3s linear; }
+      .our-causes .threechildren .btn:focus {
+        box-shadow: inherit; }
+      .our-causes .threechildren .btn:hover {
+        background-color: black; }
+
+.children:hover {
+  background: #6b6b6b; }
+  .children:hover .img img {
+    transform: scale(1.2) !important; }
+  .children:hover p, .children:hover h3, .children:hover span {
+    color: #ffffffe6 !important; }
+  .children:hover .found-design {
+    background-image: linear-gradient(to left, #000000b0 60%, white 40%) !important; }
+    .children:hover .found-design::after {
+      border-right: 40px solid transparent;
+      border-top: 20px solid #6b6b6b !important; }
+    .children:hover .found-design::before {
+      border-left: 40px solid transparent;
+      border-bottom: 20px solid #6b6b6b !important; }
+    .children:hover .found-design .found-designa {
+      border-left: 25px solid transparent;
+      border-bottom: 10px solid #212121 !important; }
+
+/*** ===========  our causes end  =========== ***/
+/*** ===========  who we are start  =========== ***/
+.who-we {
+  background-image: url("../images/child.jpg");
+  background-size: cover;
+  margin: 10px 0;
+  position: relative; }
+  .who-we .who-we-content {
+    padding: 60px 0 55px;
+    max-width: 810px;
+    margin: auto;
+    text-align: center; }
+    .who-we .who-we-content h3 {
+      color: #f6514d;
+      font-size: 30px;
+      margin-bottom: 28px;
+      position: relative;
+      z-index: 9999; }
+    .who-we .who-we-content p {
+      color: white;
+      font-size: 14px;
+      line-height: 23px;
+      position: relative;
+      z-index: 9999; }
+  .who-we .black-shadow {
+    position: absolute;
+    display: block;
+    background-color: #0000007d;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+
+/*** ===========  who we are end  =========== ***/
+.gallery {
+  padding: 70px 0; }
+  .gallery h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 55px; }
+  .gallery .gallery-img .col-lg-3 {
+    padding-top: 25px; }
+    .gallery .gallery-img .col-lg-3 .gallery-animate {
+      position: relative;
+      overflow: hidden; }
+      .gallery .gallery-img .col-lg-3 .gallery-animate img {
+        width: 100%;
+        transform: scale(1);
+        transition: all 0.5s ease; }
+      .gallery .gallery-img .col-lg-3 .gallery-animate .black-shad {
+        position: absolute;
+        display: inline-block;
+        background-color: #0000007d;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        transition: all 0.5s ease;
+        z-index: 90; }
+      .gallery .gallery-img .col-lg-3 .gallery-animate .white-w {
+        position: absolute;
+        display: inline-block;
+        background-color: white;
+        left: 50%;
+        top: 50%;
+        width: 50px;
+        height: 2px;
+        transform: translate(-50%, -50%) scale(0);
+        z-index: 9999;
+        transition: all 0.5s ease; }
+      .gallery .gallery-img .col-lg-3 .gallery-animate .white-h {
+        position: absolute;
+        display: inline-block;
+        background-color: white;
+        left: 50%;
+        top: 50%;
+        width: 2px;
+        height: 50px;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 0.5s ease;
+        z-index: 9999; }
+      .gallery .gallery-img .col-lg-3 .gallery-animate:hover .black-shad {
+        width: 100%; }
+
+.gallery-animate:hover .white-w {
+  transform: translate(-50%, -50%) scale(1) !important; }
+.gallery-animate:hover .white-h {
+  transform: translate(-50%, -50%) scale(1) !important; }
+
+.latest-news {
+  padding: 80px 0; }
+  .latest-news .latest-header {
+    max-width: 70%;
+    margin: auto;
+    text-align: center; }
+    .latest-news .latest-header h2 {
+      font-size: 36px;
+      font-weight: 600;
+      color: #f6514d;
+      position: relative; }
+      .latest-news .latest-header h2::after {
+        content: "";
+        width: 70px;
+        height: 5px;
+        background: #f6514d;
+        position: absolute;
+        left: 183px;
+        bottom: 100%; }
+      .latest-news .latest-header h2::before {
+        content: "";
+        width: 70px;
+        height: 5px;
+        background: #f6514d;
+        position: absolute;
+        right: 183px;
+        top: 100%; }
+  .latest-news .latest-post {
+    padding: 80px; }
+    .latest-news .latest-post .latest-testimoniyal {
+      position: relative; }
+      .latest-news .latest-post .latest-testimoniyal .latest-img {
+        max-width: 260px;
+        position: relative;
+        z-index: 999; }
+        .latest-news .latest-post .latest-testimoniyal .latest-img img {
+          width: 100%; }
+      .latest-news .latest-post .latest-testimoniyal .latest-date {
+        background-color: #ff00009c;
+        display: inline-block;
+        padding: 8px 22px;
+        position: absolute;
+        left: 205px;
+        top: 1px;
+        z-index: 9999; }
+        .latest-news .latest-post .latest-testimoniyal .latest-date .date {
+          color: white;
+          font-weight: bold;
+          font-size: 15px; }
+        .latest-news .latest-post .latest-testimoniyal .latest-date .year {
+          color: white;
+          font-size: 11px; }
+      .latest-news .latest-post .latest-testimoniyal .latest-send {
+        position: absolute;
+        left: 132px;
+        top: 70px;
+        z-index: 10;
+        background-color: #f9f9f9;
+        padding-left: 150px;
+        padding-top: 22px;
+        padding-bottom: 25px;
+        padding-right: 30px;
+        box-shadow: 1px 2px 5px 1px #0000002e; }
+        .latest-news .latest-post .latest-testimoniyal .latest-send h4 {
+          font-size: 21px;
+          font-weight: 600;
+          color: #f6514d;
+          font-family: system-ui;
+          margin: 0; }
+        .latest-news .latest-post .latest-testimoniyal .latest-send p {
+          font-size: 13px;
+          line-height: 21px;
+          font-family: 'Rubik', sans-serif;
+          margin: 15px 0 20px; }
+        .latest-news .latest-post .latest-testimoniyal .latest-send .item {
+          float: right; }
+      .latest-news .latest-post .latest-testimoniyal .btn {
+        background-color: #ff0701c7;
+        color: white;
+        border-radius: 0;
+        font-size: 13px;
+        padding: 7px 22px;
+        display: block;
+        transition: all 0.3s linear; }
+        .latest-news .latest-post .latest-testimoniyal .btn:focus {
+          box-shadow: inherit; }
+        .latest-news .latest-post .latest-testimoniyal .btn:hover {
+          background-color: black; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+
+canvas{
+    height: 115px !important;
+    width: 115px !important;
+}
+.my-progress-bar{
+    height: 115px !important;
+    width: 115px !important;
+}
+.my-progress{
+    height: 115px !important;
+    width: 115px !important;
+}
+.countita {
+    position: absolute;
+    left: 215px;
+    top: 54px;
+    font-size: 30px;  
+}
+.circular-progress-bar {
+    position: relative;
+    margin: 0 auto;
+    color: white !important;
+}
+.countit{
+    position: absolute;
+    left: 207px;
+    top: 54px;
+    font-size: 30px;
+}
+.progress-percentage {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 60px;
+}
+
+.progress-percentage {
+    display: none;
+	font-size: 60px;
+    color: black;
+    transform: translate(-50%, -85%);
+    transition: all 1s linear;
+}
